@@ -12,7 +12,7 @@ if(!empty($_POST['user'])&&!empty($_POST['password'])) {
     if($records->execute()){
       $message = 'Successful Register!';
     } else {
-      $message = "Sorry, Register Default!";
+      $message = "Sorry, Register Failure!";
     }
   }
 }
